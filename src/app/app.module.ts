@@ -19,6 +19,7 @@ import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 import { AbonoComponent } from './abono/abono.component';
 import { InformacionComponent } from './informacion/informacion.component';
 import { FavoritasComponent } from './favoritas/favoritas.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -44,6 +45,7 @@ import { FavoritasComponent } from './favoritas/favoritas.component';
     MatIconModule,
     NgxImageZoomModule,
     FormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
